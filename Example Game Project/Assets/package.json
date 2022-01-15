@@ -1,18 +1,39 @@
 {
-  "name": "com.Tai0ang.examplegameqqi",
+  "name": "com.Taiyang.example-game-qqi",
+  "displayName": "TestPackage",
+  "description": "A test repository for GitHub package to unity",
   "version": "1.0.0",
-  "displayName": "test package",
-  "description": "A test repository for GitHub package to unity...",
+  
+  
   
   "unity": "2019.4",
-  
- 
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mob-sakai/SoftMaskForUGUI.git"
+  },
   "author": {
     "name": "qqi",
-    "email": "7879226@gmail.com",
-    "url": "https://github.com/Tai0ang/example-game-qqi"
+    "email": "7879226@qq.com",
+    "url": "https://github.com/Tai0ang"
   },
-  
+  "dependencies": {},
+  "keywords": [
+    "ui",
+    "softmask"
+  ],
+  "samples": [
+    {
+      "displayName": "Demo",
+      "description": "UI Soft Mask Demo",
+      "path": "Samples~/Demo"
+    },
+    {
+      "displayName": "TextMeshPro Support",
+      "description": "TextMeshPro Support",
+      "path": "Samples~/TextMeshPro Support"
+    }
+  ]
   
   
 }
